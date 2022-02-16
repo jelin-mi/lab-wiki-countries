@@ -11,8 +11,8 @@ function App() {
   const [countries, setCountries] = useState(data);
 
   useEffect(() => {
-    setCountries(countries);
-  }, []);
+    console.log(countries);
+  }, [countries]);
 
   return (
     <div className="App">
