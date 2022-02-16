@@ -1,0 +1,18 @@
+.top-bar {
+    background-color: brown;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.top-bar h1 {
+    color: white;
+    text-decoration: none;
+}
+
+.top-bar a {
+    text-decoration: none;
+}
+
+.top-bar a:hover {
+    text-shadow: 2px 2px 6px #000000;
+}
